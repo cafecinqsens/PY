@@ -51,7 +51,7 @@ for bird_name in bird_names:
         distlist.append(newlength) 
         if(euc(i, j) > longest):
             longest = newlength
-            bird_distkm = longest * (40000 / 360)
+            bird_distkm = longest * (40000 / 360) #4만 킬로를 360도로 나눔
     bird_dist[bird_names[count]] = bird_distkm
     count = count + 1 
     start = start + len(x) 
