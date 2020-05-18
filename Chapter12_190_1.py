@@ -59,3 +59,11 @@ data1.drop(['hand'], axis=1, inplace=True)
 # inplace를 안 쓸려면 data2 = data.drop(['hand'], axis=1)
 
 print(data1)
+
+'''
+== 결과값 ==
+   수온   상온  날개  손
+0   1  1.1   0  1
+1   2  2.2   1  0
+2   3  3.3   0  1
+'''
