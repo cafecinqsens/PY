@@ -10,7 +10,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 G = nx.erdos_renyi_graph(25, 0.2) 
-# nx.erdos_renyi_graph(n, p)
+# nx.erdos_renyi_graph(n, p) 에르되시-레니 그래프
 # n -> 노드의 개수
 # p -> 엣지 생성 가능성
 

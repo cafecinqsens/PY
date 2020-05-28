@@ -10,7 +10,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 G = nx.barabasi_albert_graph(25, 5) 
-# barabasi_albert_graph(n, m)
+# barabasi_albert_graph(n, m) 바라바시 알버트 그래프
 # n -> 노드의 개수
 # m -> 새로운 노드로부터 존재하고 있는 노드까지 연결할 엣지의 개수
 
