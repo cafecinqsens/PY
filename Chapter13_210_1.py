@@ -20,6 +20,6 @@ print('엣지의 개수: %d' % G.number_of_edges()) # 엣지의 개수 알아내
 
 import numpy as  np
 
-print('평균 차수: %.1f' % np.mean()) # 평균의 개수 알아내기
+print('평균 차수: %.1f' % np.mean([d for n, d in G.degree()])) # 평균의 개수 알아내기
 
 
