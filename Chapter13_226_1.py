@@ -11,7 +11,7 @@ import datetime as dt
 import numpy as np
 import matplotlib.pyplot as plt
 
-birddata = pd.read_csv('/Users/bluewaves/Desktop/bird_tracking.csv')
+birddata = pd.read_csv('bird_tracking.csv')
 #csv형태의 파일 불러오기(저장 시 인코딩 방식을 UTF-8로 설정되었는지 확인)
 
 ix = birddata.bird_name == 'Eric'
@@ -32,3 +32,4 @@ print(speed.head())
 4    0.193132
 Name: speed_2d, dtype: float64
 '''
+
