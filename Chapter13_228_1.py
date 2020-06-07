@@ -12,7 +12,7 @@ import datetime as dt
 import numpy as np
 import matplotlib.pyplot as plt
 
-birddata = pd.read_csv('/Users/bluewaves/Desktop/bird_tracking.csv')
+birddata = pd.read_csv('bird_tracking.csv')
 speed = birddata.speed_2d[birddata.bird_name == 'Eric']
 
 
