@@ -1,12 +1,3 @@
-'''
-AI기초통계
-11장 데이터 프레임 처리를 위한 Pandas
-교안 179페이지 상단
-
-20. 5. 18.
-차재관 작성
-'''
-
 import pandas as pd
 import numpy as np # 넘파이 패키지 추가
 
