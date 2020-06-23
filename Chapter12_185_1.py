@@ -1,10 +1,3 @@
-'''
-AI기초통계
-12장 빅데이터의 가공
-185페이지 상하단
-20. 5. 18.
-차재관 작성
-'''
 
 import pandas as pd
 from numpy import NaN
